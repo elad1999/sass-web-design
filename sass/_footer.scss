@@ -1,0 +1,16 @@
+.footer{
+    background-color: $color-secondary;
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 3rem;        
+        @media (max-width: $bp-small) {
+            flex-direction: column;
+            
+       }   
+    }
+    p{
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+}

@@ -1,0 +1,50 @@
+.heading-1{    
+color: $color-grey-light-1;
+font-size: 4.5rem;
+align-self: center;
+}
+.heading-2{
+    color: $color-grey-dark-1;
+    font-size: 3rem;
+    align-self: center;
+    font-style: italic;
+    }
+.heading-3{
+color: $color-primary;
+font-size: 2rem;
+align-self: center;
+text-transform: capitalize;
+}
+.heading-4{
+    color: $color-grey-light-1;
+    font-size: 2rem;
+    align-self: center;
+}
+.heading-5{
+    color: $color-grey-dark-1;
+    font-size: 2rem;
+    align-self: center;
+}
+.heading-6{
+    color: $color-grey-light-2;
+    font-size: 1.5rem;
+    align-self: center;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: $color-primary;
+    border-color: $color-primary;
+    transition: .5s all;
+    padding: 1.5rem;
+    color: $color-grey-light-1;
+    text-transform: capitalize;
+    &:hover{
+        cursor: pointer;
+        background-color: $color-primary-dark;
+        
+    }
+}
+p{    
+    color: $color-grey-light-2; 
+    font-family: $font-display;
+}
